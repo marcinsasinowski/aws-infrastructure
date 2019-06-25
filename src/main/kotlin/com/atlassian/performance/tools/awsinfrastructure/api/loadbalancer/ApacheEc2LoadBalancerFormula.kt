@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger
 import java.net.URI
 import java.time.Duration
 
-internal class ApacheEc2LoadBalancerFormula : LoadBalancerFormula {
+class ApacheEc2LoadBalancerFormula : LoadBalancerFormula {
     private val logger: Logger = LogManager.getLogger(this::class.java)
     private val balancerPort = 80
 
